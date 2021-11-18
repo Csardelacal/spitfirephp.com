@@ -1,0 +1,194 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\000032}}
+body {
+  background: #f1f3f5;
+  margin: 0;
+  padding: 0;
+  font-family: 'open sans'; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\000039}}
+.wrapper, .billboard h1, nav {
+  margin: 0 auto;
+  width: 1200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000314}}
+.spacer {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000318}}
+.right {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000322}}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000328}}
+.billboard {
+  background: url("../img/billboard.70.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  height: 475px;
+  color: #fff;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000335}}
+  .billboard h1 {
+    width: 480px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000342}}
+    .billboard h1 small {
+      display: block;
+      font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000348}}
+  .billboard .corner-stone {
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000351}}
+    .billboard .corner-stone:before, .billboard section .corner-stone.header:after, section .billboard .corner-stone.header:after {
+      content: "|";
+      margin: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000356}}
+    .billboard .corner-stone:first-child:before, .billboard section .corner-stone.header:first-child:after, section .billboard .corner-stone.header:first-child:after {
+      content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000362}}
+.dialog, nav, .call2action, .factoid {
+  background: #fff;
+  border: solid 1px #dde0e3;
+  border-radius: 5px;
+  width: 1200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000368}}
+  .dialog:after, nav:after, .call2action:after, .factoid:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000375}}
+nav {
+  width: 960px;
+  margin-top: -30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000382}}
+  nav a {
+    float: left;
+    color: #606b74;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000389}}
+    nav a:hover {
+      background-color: #f9f9f9;
+      color: #f37a44; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\0000394}}
+    nav a:active, nav a.active {
+      margin-top: -1px;
+      padding-top: 22px;
+      border-top: solid 2px #f37a44; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003101}}
+  nav .logo {
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    line-height: 999px;
+    height: 47px;
+    width: 180px;
+    background: url("../img/logo.png") no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003110}}
+    nav .logo:hover {
+      background-color: #fff;
+      background-position: 0 -47px;
+      border: none;
+      margin-top: 10px;
+      padding-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003120}}
+.call2action {
+  padding: 20px;
+  color: #868f97; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003125}}
+  .call2action .button {
+    float: right;
+    margin: 0px 0px 0px 30px;
+    padding: 20px 40px;
+    background: #f37a44;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003138}}
+section .header {
+  color: #868f97;
+  text-align: center;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003143}}
+  section .header:before, section .header:after {
+    position: absolute;
+    width: 45%;
+    top: 10px;
+    border-top: 1px solid #dde0e3;
+    content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003151}}
+  section .header:after {
+    right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003158}}
+.feature {
+  display: inline-block;
+  width: 240px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #606b74;
+  margin: 0 10px;
+  vertical-align: top;
+  border: solid 1px transparent;
+  background-color: rgba(255, 255, 255, 0);
+  -moz-transition: background-color .2s ease;
+  -webkit-transition: background-color .2s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003173}}
+  .feature:hover {
+    background-color: #fff;
+    border: solid 1px #dde0e3;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px #dde0e3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003180}}
+  .feature strong {
+    display: block;
+    border-bottom: solid 1px #dde0e3;
+    width: 180px;
+    padding-bottom: 10px;
+    margin: 10px auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003192}}
+.factoid .split {
+  color: #868f97;
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  padding: 20px;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003200}}
+  .factoid .split:last-child {
+    border-left: solid 1px #dde0e3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003206}}
+.footer {
+  background: #fff;
+  border-top: solid 1px #dde0e3;
+  padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003211}}
+  .footer .column {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    padding: 10px;
+    margin: 0;
+    color: #868f97;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cesarbretschneider\/Dropbox\/SpitfireWeb\/scss\/spitfire\.scss}line{font-family:\00003220}}
+    .footer .column .header {
+      display: block;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: #606b74;
+      margin: 7px 0; }
